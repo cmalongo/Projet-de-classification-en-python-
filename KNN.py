@@ -72,4 +72,4 @@ def pgcd(a,b):
     while b != 0:
         a,b = b, a%b
     return abs(a)
-print("le pgdc est entre 5 et 18 est:", pgcd(5,18))
+print("le pgcd est entre 5 et 18 est:", pgcd(5,18))
