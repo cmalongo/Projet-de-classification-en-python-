@@ -67,3 +67,9 @@ predictions = pd.DataFrame({'Id': test_ids, 'Label': y_pred})
 predictions.to_csv("predictions.csv", index=False)
 
 print("Prédictions sauvegardées dans le fichier 'predictions.csv'.")
+
+def pgcd(a,b):
+    while b != 0:
+        a,b = b, a%b
+    return abs(a)
+print("le pgdc est entre 5 et 18 est:", pgcd(5,18))
